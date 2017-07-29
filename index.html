@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html style="">
+<head>
+    <meta charset="UTF-8">
+    <title>blog</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body style="background-size: cover; background-repeat: no-repeat;background: url('http://www.ruanyifeng.com/images_pub/pub_1.jpg')">
+
+</body>
+<script>
+    $(function () {
+        console.log($(window).height());
+        console.log($(window).width());
+        $("body").css("height",$(window).height());
+        $("body").css("width",$(window).width());
+        $("body").css("background","url('http://www.ruanyifeng.com/images_pub/pub_2.jpg') 50% 50%")
+    });
+</script>
+</html>
